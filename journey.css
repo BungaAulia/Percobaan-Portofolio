@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(252, 207, 246);
+  margin: 0;
+  padding: 2rem 1rem;
+  height: 100vh;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 3rem;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.poto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.contact {
+  margin-top: auto; 
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.hero{ 
+body {
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  background-color: #f4f7f6;
+  min-height: 100vh;
+  
+}
+
+
+.journey countainer {
+  flex: 1;                  
+  margin-left: 150px;       
+  min-height: 100vh;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  background-color: #f4f7f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 800px;         
+  margin: 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #3498db;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: -7px;
+  background-color: #fff;
+  border: 3px solid #ff9f55;
+  top: 24px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -7px;
+}
+
+
+.content {
+  padding: 20px 25px;
+  background-color: white;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.content:hover {
+  transform: translateY(-4px);
+}
+
+.date {
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 6px;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.content h2 { font-size: 1.25rem; color: #2c3e50; margin-bottom: 5px; }
+.content h3 { font-size: 0.9rem; color: #7f8c8d; margin-bottom: 8px; font-weight: 500; }
+.content p { font-size: 0.88rem; line-height: 1.5; color: #555; }
+
+}
